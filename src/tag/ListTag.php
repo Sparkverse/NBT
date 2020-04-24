@@ -34,6 +34,7 @@ use function str_repeat;
 #include <rules/NBT.h>
 
 class ListTag extends NamedTag implements \ArrayAccess, \Countable, \Iterator{
+
 	use NoDynamicFieldsTrait;
 
 	/** @var int */
